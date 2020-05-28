@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "leandro silva",
+      "email": "leandro@example.com",
+      "cpf": "12345679080",
+      "rg": "1988001",
+      "password": "a1w2e3r4",
+      "id": 1
+    }
+  ],
+  "category":[
+    {
+      "title":"Mercado",
+      "id": 1
+    },
+    {
+      "title":"Farmacia",
+      "id":2
+    }
+  ],
+  "billing":[
+    {
+      "title":"compra em mercado",
+      "amount":"120",
+      "description":"teste de descricao",
+      "category_id":1,
+      "type":1,
+      "due_date":"2020-06-10"
+    },
+    {
+      "title":"compra em farmacia",
+      "amount":"120",
+      "description":"teste de descricao",
+      "category_id":2,
+      "type":2,
+      "due_date":"2020-07-10"
+    }
+  ]
+}
